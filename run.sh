@@ -1,0 +1,18 @@
+python run.py \
+  --model_name_or_path "/home/cyp/uB-CL-main/uB-CL-main/sbert-all-mpnet-base-v2" \
+  --train_file "/home/cyp/uB-CL-main/uB-CL-main/data/data1/all_data_merge.csv" \
+  --max_seq_length 128 \
+  --grouped_size 10 \
+  --pool_type "cls" \
+  --loss_type "adaptive" \
+  --preprocessing_num_workers 4 \
+  --output_dir "./output" \
+  --num_train_epochs 5\
+  --per_device_train_batch_size 32 \
+  --learning_rate 5e-6 \
+  --logging_dir "./logs" \
+  --logging_steps 100 \
+  --save_steps 500 \
+  --eval_steps 500 \
+  --lambda_learning_rate 0.1 \
+  --do_train
