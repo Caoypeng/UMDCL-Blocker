@@ -20,7 +20,7 @@ pip install -r requirements.txt
 Public datasets used in the paper are from [DeepMatcher](https://github.com/anhaidgroup/deepmatcher/blob/master/Datasets.md), [WDC](http://webdatacommons.org/largescaleproductcorpus/v2/) and 
 [2022 SIGMOD Programming Contest](http://sigmod2022contest.eastus.cloudapp.azure.com). The cora dataset is in the data folder.
 
-![本地图片](./readme_figure/datasets.jpg)
+![本地图片](./readme_figure/113b38ffecf51fbffacc2654fc0fc031.png)
 
 ### 3. How to use
 
